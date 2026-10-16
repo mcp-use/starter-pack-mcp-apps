@@ -1,21 +1,22 @@
-# Make Something Agents Want: mcp-use Starter Packs
+# mcp-use MCP Apps Starter Pack
 
 Starter templates for the [Make Something Agents Want Hackathon](https://events.ycombinator.com/MakeSomethingAgentsWant) at Y Combinator HQ in San Francisco, October 17–18, 2026.
 
-YC's motto has always been "make something people want." This weekend the user is an agent. Each starter pack is an MCP server built with [mcp-use](https://github.com/mcp-use/mcp-use), pinned to `mcp-use@2.10.0`, and ready to run, test in the Inspector, and deploy to [Manufact](https://manufact.com).
+An MCP server with a React view that renders inside ChatGPT, Claude, and other MCP Apps clients. The `show-app` tool returns structured data, and the view in `views/my-view` displays it and calls a second tool from a button. Start here when your agent should show the user something it can interact with.
+
+YC's motto has always been "make something people want." This weekend the user is an agent. Each starter pack is an MCP server built with [mcp-use](https://github.com/mcp-use/mcp-use), and ready to run, test in the Inspector, and deploy to [Manufact](https://manufact.com).
 
 > [!TIP]
 > Install the Manufact plugin in [ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_69cbfd610c3881919163e080ede4d042?search=manufact) or [Claude](https://claude.ai/directory/manufact).
 
-## Pick a starter pack
+## Check out the other starter packs
 
 | Starter pack | What you get | Start here |
 | --- | --- | --- |
 | **Blank** | An empty MCP server, straight from `create-mcp-use-app`. Add your own tools, resources, and prompts. | [mcp-use/starter-pack-blank](https://github.com/mcp-use/starter-pack-blank) |
-| **MCP Apps** | An MCP server with a React view that renders inside ChatGPT, Claude, and other MCP Apps clients. | [mcp-use/starter-pack-mcp-apps](https://github.com/mcp-use/starter-pack-mcp-apps) |
 | **ChatGPT Plugin Extension** | Little Bookshop: a complete ChatGPT app with launchers, native settings, deep links, a cart, and "Add to chat" model context. | [mcp-use/starter-pack-chatgpt-plugin](https://github.com/mcp-use/starter-pack-chatgpt-plugin) |
 
-Open the starter pack you want and click **Use this template** to create your own copy.
+Click **Use this template** on any starter pack to create your own copy.
 
 ## Get started
 
@@ -49,6 +50,8 @@ npm run deploy
 ```
 
 The first deploy links the project. Your server gets a public HTTPS URL you can add to ChatGPT, Claude, Cursor, or any MCP client. See the [deployment guide](https://docs.mcp-use.com/v2/typescript/server/deployment/mcp-use).
+
+You can also deploy from chat. With the Manufact plugin installed in [ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_69cbfd610c3881919163e080ede4d042?search=manufact) or [Claude](https://claude.ai/directory/manufact), ask it to deploy your MCP server from GitHub and pick the repo you created from this template.
 
 ## Build for agents
 
