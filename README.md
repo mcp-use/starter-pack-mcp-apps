@@ -4,6 +4,9 @@ Starter templates for the [Make Something Agents Want Hackathon](https://events.
 
 YC's motto has always been "make something people want." This weekend the user is an agent. Each starter pack is an MCP server built with [mcp-use](https://github.com/mcp-use/mcp-use), pinned to `mcp-use@2.10.0`, and ready to run, test in the Inspector, and deploy to [Manufact](https://manufact.com).
 
+> [!TIP]
+> Install the Manufact plugin in [ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_69cbfd610c3881919163e080ede4d042?search=manufact) or [Claude](https://claude.ai/directory/manufact).
+
 ## Pick a starter pack
 
 | Starter pack | What you get | Start here |
@@ -47,17 +50,7 @@ npm run deploy
 
 The first deploy links the project. Your server gets a public HTTPS URL you can add to ChatGPT, Claude, Cursor, or any MCP client. See the [deployment guide](https://docs.mcp-use.com/v2/typescript/server/deployment/mcp-use).
 
-## Manufact track: Best MCP Server for Agents
-
-The best MCP server built for agents as the primary customer.
-
-| Place | Prize |
-| --- | --- |
-| 1st | $2,000 cash + $6,000 Manufact credits |
-| 2nd | $700 cash + $3,000 Manufact credits |
-| 3rd | $300 cash + $300 Manufact credits |
-
-Judges: Luigi Pederzani, Enrico Toniato, Andrew Khadder.
+## Build for agents
 
 Some things that make a server good for agents:
 
@@ -65,29 +58,6 @@ Some things that make a server good for agents:
 - Outputs that are small and structured. Return `structuredContent` with an `outputSchema` so agents don't spend tokens parsing prose.
 - Errors that tell the agent what to do next, returned as `isError` results instead of thrown stack traces.
 - A few well-scoped tools instead of one per API endpoint.
-
-## Schedule
-
-**Saturday, October 17**
-
-| Time | |
-| --- | --- |
-| 9:00 AM | Doors open and sign in |
-| 10:00 AM | Kickoff |
-| 10:30 AM | Hacking begins |
-| 12:00 PM | Lunch and lightning talks |
-| 5:00 PM | Dinner |
-| 6:00 PM | Dinner lightning talks |
-
-**Sunday, October 18**
-
-| Time | |
-| --- | --- |
-| 8:00 AM | Breakfast |
-| 10:00 AM | Submissions due and live demos |
-| 11:00 AM | Judging completes |
-| 12:15 PM | Winners announced |
-| 1:00 PM | Hackathon ends |
 
 ## Build with a coding agent
 
