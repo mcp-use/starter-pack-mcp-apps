@@ -4,7 +4,7 @@
 
 This starter pack is deployed on Manufact:
 
-- [Live MCP endpoint](https://starter-pack-mcp-apps.run.mcp-use.com/mcp): add this URL to ChatGPT, Claude, or another MCP client.
+- [https://starter-pack-mcp-apps.run.mcp-use.com/mcp](https://starter-pack-mcp-apps.run.mcp-use.com/mcp): add this URL to ChatGPT, Claude, or another MCP client.
 - [Open in the Inspector](https://inspector.manufact.com/inspector?autoConnect=https%3A%2F%2Fstarter-pack-mcp-apps.run.mcp-use.com%2Fmcp): automatically connect to the deployed server and try it out.
 
 Starter templates for the [Make Something Agents Want Hackathon](https://events.ycombinator.com/MakeSomethingAgentsWant) at Y Combinator HQ in San Francisco, October 17–18, 2026.
